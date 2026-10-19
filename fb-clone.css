@@ -1,0 +1,115 @@
+ body{
+
+    }
+    #log-msg{
+        font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(17, 17, 18);
+        margin-bottom: 25px;
+        padding-right: 410px;
+        
+    }
+    .email-box{
+        width: 546px;
+        height: 60px;
+        border-radius: 19px;
+        font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        padding-left: 15px;
+        border:1px solid lightgray;
+        outline: none;
+        margin-bottom: 12px;
+        cursor: text;
+
+    }
+    .email-box:hover{
+        border-color: black;
+    }
+    .pass-box{
+        display: block;
+        margin-top: 0px;
+        width: 546px;
+        height: 60px;
+        border-radius: 19px;
+        font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        padding-left: 15px;
+        border:1px solid lightgrey;
+        outline: none;
+        cursor: text;
+        margin-bottom: 22px;
+    }
+    .pass-box:hover{
+        border-color: black;
+    }
+    .login-btn{
+        display: block;
+        margin-top: 0;
+        width: 566px;
+        height: 44px;
+        border-radius: 22px;
+        font-family:"Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+        background-color: rgb(4, 82, 216);
+        color: #ffff;
+        font-size: 16px;
+        border: none;
+        margin-bottom: 12px;
+        cursor: pointer;
+        
+    }
+    .forgt-pass{
+        display: block;
+        font-family:"Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+        background-color: #ffff;
+        width: 566px;
+        height: 44px;
+        border-radius: 22px;
+        border: non;
+        font-size: 15px;
+        border: none;
+        margin-bottom: 40px;
+    }
+    .forgt-pass:hover{
+        background-color: lightgrey;
+    }
+    .forgt-link{
+        color: black;
+        text-decoration: none;
+    }
+    .create-btn{
+        display: block;
+        font-family:"Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+        background-color: #ffff;
+        width: 566px;
+        height: 44px;
+        border-radius: 22px;
+        font-size: 15px;
+        border: 1px solid rgb(56, 88, 152);
+        outline-color: rgb(56, 88, 152);
+        margin-bottom: 12px;
+    }
+    .create-link{
+        text-decoration: none;
+        color: rgb(56, 88, 152);
+        font-size: 16px;
+        text-decoration-color: rgb(56, 88, 152);
+        text-decoration-style: solid;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fb-logo{
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .meta-text{
+        width: 60px;
+    }
+    .fb-interface{
+        width: 600px;
+    }
